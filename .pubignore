@@ -1,0 +1,25 @@
+# .pubignore replaces .gitignore for publishing, so it restates the build
+# artefacts .gitignore covers.
+.dart_tool/
+.packages
+.pub/
+pubspec.lock
+build/
+coverage/
+*.iml
+.idea/
+.vscode/
+.env
+
+# Internal working records, not package documentation.
+CLAUDE.md
+changes.md
+plans.md
+
+# The example's platform folders and builds are large and not needed to read
+# the example; example/lib/main.dart and its pubspec stay.
+example/build/
+example/ios/
+example/android/
+example/.dart_tool/
+example/pubspec.lock

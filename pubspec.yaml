@@ -1,0 +1,26 @@
+name: malipopay_checkout
+description: Malipopay hosted checkout for Flutter. Opens the merchant's branded Malipopay payment page (card and mobile money) in a WebView and returns the result.
+version: 0.1.0
+homepage: https://developers.malipopay.co.tz
+repository: https://github.com/Malipopay/malipopay-checkout-flutter
+issue_tracker: https://github.com/Malipopay/malipopay-checkout-flutter/issues
+topics:
+  - payments
+  - checkout
+  - mobile-money
+  - tanzania
+  - fintech
+
+environment:
+  sdk: ^3.10.0
+  flutter: ">=3.38.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.14.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
