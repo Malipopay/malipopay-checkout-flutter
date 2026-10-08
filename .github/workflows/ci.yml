@@ -18,6 +18,4 @@ jobs:
       - run: dart format --set-exit-if-changed lib test example/lib
       - run: flutter analyze
       - run: flutter test
-      - name: Show files the toolchain changed
-        run: flutter --version && git status --short && git diff
       - run: dart pub publish --dry-run
